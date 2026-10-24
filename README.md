@@ -32,6 +32,8 @@ For Cursor, Windsurf, and other agents, the skills installer copies the skill in
 npx skills add omrajguru/plainspoken
 ```
 
+Plainspoken is also listed on [skills.sh](https://www.skills.sh/omrajguru/plainspoken/plainspoken).
+
 If you would rather not use any installer, copy `skills/plainspoken` into your agent's skills folder.
 
 ## Why it exists
