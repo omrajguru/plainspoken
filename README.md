@@ -1,12 +1,38 @@
+![Plainspoken](images/banner.webp)
+
 # Plainspoken
 
 Plainspoken is a skill for AI coding agents that helps you write technical articles, blog posts, dev notes, docs, and READMEs. Its aim is fairly simple: what comes out should read as though it was written by someone who understands the subject, in that person's own voice, rather than like the text a model produces when it is left to fill space.
+
+## Install
+
+Plainspoken works in Claude Code, in Codex, and in any other agent that reads skills.
+
+In Claude Code (version 2.1.275 or later), run this inside a session:
+
+```
+/plugin install plainspoken --marketplace omrajguru/plainspoken
+```
+
+On an earlier version, add the marketplace with `/plugin marketplace add omrajguru/plainspoken`, then install it with `/plugin install plainspoken@omrajguru`.
+
+In Codex, add the marketplace and then the plugin:
+
+```bash
+codex plugin marketplace add omrajguru/plainspoken
+```
+
+```bash
+codex plugin add plainspoken@omrajguru
+```
+
+For Cursor, Windsurf, and other agents, the skills installer copies the skill into the right folder:
 
 ```bash
 npx skills add omrajguru/plainspoken
 ```
 
-If you would rather not use the installer, copy `skills/plainspoken` into your agent's skills folder (for Claude Code, that is `~/.claude/skills/`).
+If you would rather not use any installer, copy `skills/plainspoken` into your agent's skills folder.
 
 ## Why it exists
 
@@ -34,7 +60,7 @@ The first time you use Plainspoken, it offers a short setup to learn your voice.
 
 Most of those questions ask you to pick the sentence that sounds most like you, rather than describe your own style. People recognise their voice far more easily than they can explain it, and a sentence you picked teaches the model more than an adjective such as "direct" or "friendly" ever could. Every question can be skipped, and the whole setup takes about five minutes.
 
-The result is a short file saved to `~/.plainspoken/voice.md`, which you can read and edit like any other file. A repository can have its own voice in `.plainspoken/voice.md`, and `/plainspoken voice` changes it later. There is an [example voice file](skills/plainspoken/assets/voice-example.md) if you would like to see what one looks like.
+The result is a short file saved to `~/.plainspoken/voice.md`, which you can read and edit like any other file. A repository can have its own voice in `.plainspoken/voice.md`, and asking Plainspoken to change your voice updates it later. There is an [example voice file](skills/plainspoken/assets/voice-example.md) if you would like to see what one looks like.
 
 ## It asks before it writes
 

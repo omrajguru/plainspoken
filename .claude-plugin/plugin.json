@@ -1,0 +1,15 @@
+{
+  "name": "plainspoken",
+  "displayName": "Plainspoken",
+  "version": "1.0.0",
+  "description": "Write technical articles, blog posts, docs, and READMEs in your own voice, without AI slop. Learns how you write, checks that you can explain every point, and runs a clarity and slop check before writing any file.",
+  "author": {
+    "name": "Om",
+    "email": "hi@omrajguru.in",
+    "url": "https://omrajguru.com"
+  },
+  "homepage": "https://github.com/omrajguru/plainspoken",
+  "repository": "https://github.com/omrajguru/plainspoken",
+  "license": "MIT",
+  "keywords": ["writing", "technical-writing", "blogging", "documentation", "readme", "style-guide", "ai-slop"]
+}

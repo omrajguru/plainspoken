@@ -1,0 +1,18 @@
+{
+  "name": "omrajguru",
+  "description": "Plugins by Om.",
+  "owner": {
+    "name": "Om",
+    "email": "hi@omrajguru.in",
+    "url": "https://omrajguru.com"
+  },
+  "plugins": [
+    {
+      "name": "plainspoken",
+      "source": "./",
+      "description": "Write technical articles, blog posts, docs, and READMEs in your own voice, without AI slop.",
+      "category": "writing",
+      "tags": ["writing", "technical-writing", "documentation"]
+    }
+  ]
+}

@@ -23,12 +23,12 @@ Before we write anything: I can learn how you write, so the result sounds like y
 
 - A) Share 1 to 3 things you have written (paste them, or give me file paths or links). I work out your voice and you just confirm it. This is the fastest.
 - B) Answer a few quick questions instead.
-- C) Skip for now and use a neutral voice. You can set it up later with "/plainspoken voice".
+- C) Skip for now and use a neutral voice. You can set it up later by asking me to set up your voice.
 ```
 
 - **A** goes to "Learning from samples".
 - **B** goes to "Round 1".
-- **C** saves nothing, uses the neutral voice below for this session, and asks again next time only if the author runs `/plainspoken voice`. To stop the offer repeating, save the neutral voice as the voice file and say where it was saved.
+- **C** saves nothing, uses the neutral voice below for this session, and asks again only if the author asks to set up their voice. To stop the offer repeating, save the neutral voice as the voice file and say where it was saved.
 
 ## Learning from samples
 

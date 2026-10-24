@@ -1,6 +1,6 @@
 ---
 name: plainspoken
-description: "Helps you write technical articles, blog posts, dev notes, docs, and READMEs that sound like a person who understands the subject, not like AI slop. On first use it learns the author's voice through a short, friendly setup. It then checks that the author can explain every point, picks the right kind of document, drafts in chat, and runs a clarity and slop check before writing any file. Use when writing, editing, or reviewing an article, blog post, dev note, case study, postmortem, tutorial, how-to guide, doc page, or README, when asked to remove AI slop from a draft or make writing sound less AI-generated, or for /plainspoken."
+description: "Helps you write technical articles, blog posts, dev notes, docs, and READMEs that sound like a person who understands the subject, not like AI slop. On first use it learns the author's voice through a short, friendly setup. It then checks that the author can explain every point, picks the right kind of document, drafts in chat, and runs a clarity and slop check before writing any file. Use when writing, editing, or reviewing an article, blog post, dev note, case study, postmortem, tutorial, how-to guide, doc page, or README, when asked to remove AI slop from a draft or make writing sound less AI-generated, or when the user calls plainspoken by name."
 ---
 
 # Plainspoken
@@ -35,7 +35,7 @@ Look for a voice file in this order and use the first one you find:
 1. `.plainspoken/voice.md` in the root of the current repository.
 2. `~/.plainspoken/voice.md` in the user's home directory.
 
-If neither exists, run the voice setup in `references/voice-setup.md` before anything else. The setup offers a skip, which uses the neutral voice defined in that file. Do not run the setup again once a voice file exists, unless the user asks ("set up my voice", "change my voice", `/plainspoken voice`).
+If neither exists, run the voice setup in `references/voice-setup.md` before anything else. The setup offers a skip, which uses the neutral voice defined in that file. Do not run the setup again once a voice file exists, unless the user asks ("set up my voice", "change my voice", or the skill's command followed by "voice").
 
 ## Step 1: Pick the entry point and the depth
 

@@ -1,0 +1,20 @@
+{
+  "name": "omrajguru",
+  "interface": {
+    "displayName": "Om's plugins"
+  },
+  "plugins": [
+    {
+      "name": "plainspoken",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
